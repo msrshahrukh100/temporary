@@ -1,0 +1,98 @@
+<html>
+<head>
+<title></title>
+{% load staticfiles %}
+
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+ <nav style="opacity:1;">
+
+    <div class="nav-wrapper" >
+      <a href="#" class="brand-logo "><span style='color:black;'>Jamia Memories</span></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      	<li>
+      		<div class="input-field col s1">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" placeholder="Email" type="text" class="validate">
+        </div>
+
+      	</li>
+
+      	<li>
+      		<div class="input-field col s1">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" placeholder="Password" type="tel" class="validate">
+        </div>
+
+      	</li>
+      	<li>
+
+<a class="waves-effect waves-light btn">Login</a>
+      	</li>
+      </ul>
+    </div>
+  </nav>
+        
+
+     <div class="row" style="padding-top:20%;">
+        <div class="col m4 offset-m4">
+          <div class="card">
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+
+              <!-- form for the signup -->
+                <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Telephone</label>
+        </div>
+      </div>
+      <div class='center'>
+      <a class="waves-effect waves-light btn ">Sign Up</a>
+      </div>
+    </form>
+  </div>
+              <!-- form for the signup -->
+    <div class="center">Or Sign Up with
+		<div class="row">
+              <a class="waves-effect waves-light btn"><i class="fa fa-google-plus left" ></i>Google</a>
+			
+              <a class="waves-effect waves-light btn"><i class="fa fa-facebook left" ></i>Facebook</a>
+		</div>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+
+
+<script src="https://code.jquery.com/jquery-1.12.3.js"
+        integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="
+        crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+<script src="https://use.fontawesome.com/7c8b91cb35.js"></script>
+
+
+            
+</body>
+
+</html>

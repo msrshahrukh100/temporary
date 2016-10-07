@@ -1,0 +1,129 @@
+<html>
+<head>
+<title></title>
+{% load staticfiles %}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+
+
+
+ <nav>
+    <div class="nav-wrapper">
+      <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a class='dropdown-button btn transparent' data-gutter="10px" data-beloworigin="true" href='#' data-activates='dropdown1'>
+          <div class="chip transparent">
+    <img src="{% static 'images/shahrukh.jpeg' %}" alt="Contact Person">
+    Mohammad Shahrukh
+  </div></a>
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+        
+
+ <ul id="slide-out" class="side-nav">
+    <li><div class="userView" style="background-image: url({% static 'images/1.jpeg' %});">
+      <!-- <img class="background"  style="height:400px;width:250px;" src="{% static 'images/1.jpeg' %}"> -->
+      <div style="padding-top:20px;"></div>
+      <a href="#!user"><img class="circle" style="height:64px;width:64px;" src="{% static 'images/shahrukh.jpeg' %}"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  
+        
+
+<div class="main-content">
+
+<div class="container">
+
+    <div class="row">
+        <div class="col s12 ">
+          <div class="card">
+            <div class="card-image">
+              <img src="{% static 'images/1.jpeg' %}">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 ">
+          <div class="card">
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 ">
+          <div class="card">
+            <div class="card-image">
+              <img src="{% static 'images/1.jpeg' %}">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.3.js"
+integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script src="https://use.fontawesome.com/7c8b91cb35.js"></script>
+<script src="{% static 'js/base.js' %}"></script>
+
+
+            
+</body>
+
+</html>

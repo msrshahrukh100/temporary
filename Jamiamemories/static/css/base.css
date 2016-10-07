@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:100);
+
+html { 
+  background:  url('../images/collection.gif') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+body {
+    height: 100%;
+}
+
+he{
+  font-family: 'Slabo 27px', sans-serif;
+  font-size: 3em;
+  margin: .2em .5em;
+  color: black;
+}
+
+
+.cnav {
+    /*background-color: #fff;*/
+    /*background-color: rgba(255,255,255,0.5);*/
+
+     opacity: .40; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=40); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=40)"; /* IE 8 */
+    -khtml-opacity: .40; /* Safari 1.x */
+    -moz-opacity: .40; /* FF lt 1.5, Netscape */
+
+}
